@@ -1,3 +1,22 @@
-.body {
-    display: flexbox;
+.testimonial-slider {
+    display: flex;
+    background-color: red;
+    width: 600px;
+    height: 250px;
+    margin-left: 27%;
+    margin-top: 15%;
+    border-radius: 12px;
+}
+.Testimonials {
+   font-family: "Source Sans 3", sans-serif;
+   text-align: justify;
+   font-size: large;
+   height: 10px;
+   text-size-adjust: 30px;
+   padding-top: 90px;
+   padding-left: 25px; 
+}
+#name {
+   color: aliceblue;
+   
 }
