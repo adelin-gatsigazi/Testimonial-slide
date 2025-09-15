@@ -1,22 +1,30 @@
 .testimonial-slider {
     display: flex;
-    background-color: red;
+    background-color: rgb(109, 109, 208);
     width: 600px;
     height: 250px;
     margin-left: 27%;
-    margin-top: 15%;
+    margin-top: 8%;
     border-radius: 12px;
 }
 .Testimonials {
-   font-family: "Source Sans 3", sans-serif;
    text-align: justify;
+   color: white;
+   font-family: "Shadows Into Light", cursive;
    font-size: large;
    height: 10px;
-   text-size-adjust: 30px;
-   padding-top: 90px;
+   padding-top: 70px;
    padding-left: 25px; 
 }
 #name {
-   color: aliceblue;
-   
+   display: block;
+   margin-top: 15px;
+}
+#image {
+    display: flex;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: -160px;
+    margin-left: 570px;
 }
