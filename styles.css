@@ -1,3 +1,30 @@
-.body {
-    display: flexbox;
+.testimonial-slider {
+    display: flex;
+    background-color: rgb(109, 109, 208);
+    width: 600px;
+    height: 250px;
+    margin-left: 27%;
+    margin-top: 8%;
+    border-radius: 12px;
+}
+.Testimonials {
+   text-align: justify;
+   color: white;
+   font-family: "Shadows Into Light", cursive;
+   font-size: large;
+   height: 10px;
+   padding-top: 70px;
+   padding-left: 25px; 
+}
+#name {
+   display: block;
+   margin-top: 15px;
+}
+#image {
+    display: flex;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: -160px;
+    margin-left: 570px;
 }
