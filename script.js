@@ -20,7 +20,7 @@ const testimonials = [
 ];
 const imgEl = document.querySelector("img");
 const nameEl = document.querySelector(".name");
-const textEl = document.querySelector(".testimonial");
+const textEl = document.querySelector(".text");
 
 let idx = 0;
 
@@ -29,8 +29,8 @@ updateTestimonial();
 function updateTestimonial () {
     const {name,photoUrl,text} = testimonials[idx];
     imgEl.src = photoUrl;
-    textEl.innertext = testimonial;
-    name.innertext = name;
+    textEl.innerText = text;
+    nameEl.innerText = name;
     idx++;
     if(idx === testimonials.length) {
         idx = 0;
