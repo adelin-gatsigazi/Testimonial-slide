@@ -1,5 +1,4 @@
 .testimonial-slider {
-    display: flex;
     background-color: rgb(109, 109, 208);
     width: 600px;
     height: 250px;
@@ -13,15 +12,16 @@
    font-family: "Shadows Into Light", cursive;
    font-size: large;
    height: 10px;
-   padding-top: 70px;
+   padding-top: 90px;
    padding-left: 25px; 
 }
 .name {
-   display: grid;
+   position: relative;
+   top: 40px;
+   left: 20px;
    color: white;
    font-family: "Shadows Into Light", cursive;
    font-size: large;
-   padding-bottom: 320px;
 }
 #image {
     display: flex;
