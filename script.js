@@ -18,6 +18,7 @@ const testimonials = [
     name: "Constantine V",
   }, 
 ];
+
 const imgEl = document.querySelector("img");
 const textEl = document.querySelector(".text");
 const nameEl = document.querySelector(".name");
@@ -27,9 +28,9 @@ let idx = 0;
 updateTestimonial();
 
 function updateTestimonial () {
-    const {name,photoUrl,text} = testimonials[idx];
+    const {name, photoUrl, text} = testimonials[idx];
     imgEl.src = photoUrl;
-    textEl.innerText = text;
+    textEl.innerHTML = text;
     nameEl.innerText = name;
     idx++;
     if(idx === testimonials.length) {
@@ -37,5 +38,5 @@ function updateTestimonial () {
     }
     setTimeout(() => {
         updateTestimonial();
-    },1000);
+    }, 1000);
 }
