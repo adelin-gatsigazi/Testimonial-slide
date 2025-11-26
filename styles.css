@@ -1,3 +1,33 @@
-.body {
-    display: flexbox;
+.testimonial-slider {
+    background-color: rgb(109, 109, 208);
+    width: 600px;
+    height: 250px;
+    margin-left: 27%;
+    margin-top: 8%;
+    border-radius: 12px;
+}
+.text {
+   text-align: justify;
+   color: white;
+   font-family: "Shadows Into Light", cursive;
+   font-size: large;
+   height: 10px;
+   padding-top: 90px;
+   padding-left: 25px;
+}
+.name {
+   position: relative;
+   top: 40px;
+   left: 20px;
+   color: white;
+   font-family: "Shadows Into Light", cursive;
+   font-size: large;
+}
+#image {
+    display: flex;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: -160px;
+    margin-left: 570px;
 }
